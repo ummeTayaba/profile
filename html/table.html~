@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title>My Profile</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link type="text/css" rel="stylesheet" href="../css/home.css"/>
+
+</head>
+
+<body>
+
+	<div class="my-menu">
+		<a href="../index.html" title="home">Home</a>
+		<a href="../index.html#myInfo" title="info">About Me</a>
+		<a href="../index.html#career" title="projects">Projects</a>
+		<a href="../index.html#hobby" title="hobby">My Hobbies</a>
+		<a href="../index.html#best" title="top 6 shows">My top-6 favourite shows</a>
+		<a href="../index.html#favorite" title="quotes">Favorite Quote</a>
+		<a href="#" title="table">My business</a>
+	</div>
+
+	<div class='div2'>
+
+		<h1 class="project header">Welcome to my business forum!!</h1>
+
+		<p style="color:#000000;text-align: center;" >I have a personal onlineshop named <a style="color:#000000;text-align: center;" title="go to branoo.com" href="http://http://www.branoo.com/">Branoo</a> &amp; <a style="color:#000000;text-align: center;" title="go to bdshop.com" href="http://http://www.bdshop.com/">Bdshop.com</a> where I run my small business of cosmetics and costumes for men and women both and this is how I made a small source of income. All products here are reliable and are supplied with 100% accurate information.If you are interested you may have a look of the product information and email me to buy. My email address is <b>tayebasadna8@gmail.com</b> Thank you. </p>
+		<p><img alt="profile image" id = "profileImg" src="https://cdn0.iconfinder.com/data/icons/cosmetics-set/512/cosmetic_18-512.png" /></p>
+		
+
+
+	</div>
+	
+	<div>
+		<table>
+			<tr>
+				<th>Type</th>
+				<th>Product</th>
+				<th>Brand</th>
+				<th>Status</th>
+				<th>Price</th>
+				
+			</tr>
+			<tr>
+				<td rowspan="3">Cosmetics</td>
+				<td>Talcom Powder</td>
+				<td>Yardley London</td>
+				<td>Solid</td>
+				<td>250tk.</td>
+				
+			</tr>
+			
+			<tr>
+				<td>Lipstick</td>
+				<td>Mac</td>
+				<td>Liquid</td>
+				<td>3500tk.</td>
+				
+			</tr>
+
+			<tr>
+				<td>Shampoo</td>
+				<td>L'oreal</td>
+				<td>Liquid</td>
+				<td>1500tk.</td>
+				
+			</tr>
+
+			<tr>
+				<td rowspan="2">Dresses</td>
+				<td>Men Sunglasses</td>
+				<td>Fast Track</td>
+				<td>Brand new</td>
+				<td>4000tk</td>
+				
+			</tr>
+
+			<tr>
+				<td>Ladies Watch</td>
+				<td>Michael Kors</td>
+				<td>Replica</td>
+				<td>3500tk</td>
+				
+			</tr>
+		</table>
+<p><a style="color:#000000;text-align: center;" href="../index.html">back to Home </a> </p>
+	</div>
+
+	<div id='footer'>
+		<p id= 'footer-text' style="color:#000000;text-align: center;" class='my-center-text'>This was built at </p>
+		<p id= 'location' style='color:#000000;text-align: center;' class='my-center-text'>I am at </p>
+	</div>
+
+	<script type="text/javascript">
+
+	function call()
+	{
+		var myFoot = document.getElementById('footer-text');
+		var pre = myFoot.innerHTML;
+		var post = document.lastModified;
+		myFoot.innerHTML = pre + "  " + post;
+				
+		myFoot = document.getElementById('location');
+		var pre = myFoot.innerHTML;
+		var post = window.location;
+		myFoot.innerHTML = pre + "  " + post;
+				
+	}
+		
+	call();
+
+	</script>
+	
+</body>
+
+</html>

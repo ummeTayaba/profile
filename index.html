@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title>My Profile</title>
+	<link type="text/css" rel="stylesheet" href="css/home.css"/>
+
+</head>
+
+<body style="background-color: black; ">
+
+	<div class="my-menu">
+		<a href="#" title="home">Home</a>
+		<a href="#myInfo" title="info">About Me</a>
+		<a href="#career" title="projects">Projects</a>
+		<a href="#hobby" title="hobby">My Hobbies</a>
+		<a href="#best" title="top 6 shows">My top-6 favourite shows</a>
+		<a href="#favorite" title="quotes">Favorite Quote</a>
+		<a href="html/table.html" title="table">My business</a>
+	</div>
+
+	<div class='div2'>
+		<h1 class='header'>Hello!!</h1>
+		<p class='header'>This is Umme Tayaba</p>
+		
+		<div id="myInfo">
+			<p class='topic'> About Me</p>
+			
+			<p ><b>I am 21 years old residing in <b>Dhaka</b>. I am currently studing in <a title="Brac University" href="http://bracu.ac.bd/"><b>Brac University</b></a> and doing my Bsc in <b>Computer Science and Engineering</b>. I love travelling,shoppping,singing and hanging out with friends. I don't believe in smart friendship. I am little hyperractive but very good in heart and soul</p>
+		<p><a href="#"><tr>back to top</tr> </a> </p>
+		<hr/>
+
+
+			
+				
+		</div>
+
+		<div id="career">
+			<p class='topic'> Career building &amp; projects</p>
+
+			<p class='project'><b>My Career Building:</b></p>
+
+			<p ><b>Before coming to this computer science background I really had not a single idea about IT related stuffs.At the very beginning of this course I used to feel hesitated while attending classes and suddenly realised this course doesn't suit me.But I didn't give up. I consulted to one of my faculties who inspired me a lot to cope up in this field.Not only that whenever I needed any help he was always there beside me as pillar.And gradually I completed reading HTML,JAVAscript,python,CSS and Java. So,here I am. I have come a long way but still millions of miles to go.</b> </p>
+			<p class='project'><b>My Projects: </b></p>
+			<ul>
+				<li><b>I have completed several projects that include database design,making android app,buiding webpages. Here's one of my favourite projects I have completed recently and really have enjoyed to work on that is <a title="ROBU"  href="http://adnan.banglarobotics.com/#"><em>Robotics club</em></a> which is actually made centering on the functions and user access to our robotic club. </b></li>
+				<li><b>Basically I gather maximum of my projects in <a title="piazza link" href="https://piazza.com/brac_university/fall2016/cse391/home">Piazza</a> .You may have a look if you are interested</b></li>
+			</ul>
+                  <p><a href="#"><tr>back to top</tr> </a> </p>
+                  <hr/>
+		</div>
+
+
+		
+
+		<div id="hobby">
+			<p class='topic'> My Hobbies</p>
+			<ul style="list-style-type:square">
+				<li><p >Shopping (Cz I am a big shopaholic :D)</p></li>
+				<li><p >Reading Story books (one of my favourites is <a title="The Kite Runner pdf" href="http://www.thehazeleyacademy.com/wp-content/uploads/2014/07/IB-English-The-Kite-Runner-Full-Text.pdf">The Kite Runner</a>)</p></li>
+				<li><p >Listenning Songs (specially of <a title="see details" href="https://en.wikipedia.org/wiki/Taylor_Swift">Taylor Swift</a> ,my favourite icon)</p></li>
+			</ul>
+           <p><a href="#"><tr>back to top</tr> </a> </p>
+           <hr/>
+		</div>
+
+		<div id="best" >
+			<p class='topic'> My top-6 favourite shows</p>
+			<ol style="list-style-type:lower-alpha">
+				<li><p class='li-text'><a title="see details" href="https://en.wikipedia.org/wiki/Game_of_Thrones">Game of Thrones</a></p></li>
+				<li><p class='li-text'><a title="see details" href="https://en.wikipedia.org/wiki/True_Detective">True Detective</a></p></li>
+				<li><p class='li-text'><a title="see details" href="https://en.wikipedia.org/wiki/MasterChef_Australia">Masterchef Australia</a></p></li>
+				<li><p class='li-text'><a title="see details" href="https://en.wikipedia.org/wiki/Quantico_(TV_series)">Quantico</a></p></li>
+				<li><p class='li-text'><a title="see details" href="https://en.wikipedia.org/wiki/Desperate_Housewives">Desperate Housewives</a></p></li>
+				<li><p class='li-text'><a title="see details" href="https://en.wikipedia.org/wiki/Koffee_with_Karan">Koffee with Karan</a></p></li>
+			</ol>
+<p><a href="#"><tr>back to top</tr> </a> </p>
+<hr/>
+		</div>
+		<div id="favorite">
+			<p class='topic'> Favorite Quote</p>
+			<blockquote class="my-center-text">
+				<p><big><b>"Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring."</b></big></p>
+				<p>-<i>Marilyn Monroe</i></p>
+			</blockquote>
+         <p><a href="#"><tr>back to top</tr> </a> </p>	
+         <hr/>
+		</div>
+
+	</div>
+
+
+	<div id='footer'>
+		<p id= 'footer-text' style='color:#ffffff' class='my-center-text'>This was built at </p>
+		<p id= 'location' style='color:#ffffff' class='my-center-text'>I am at </p>
+	</div>
+
+	<script type="text/javascript">
+
+	function call()
+	{
+		var myFoot = document.getElementById('footer-text');
+		var pre = myFoot.innerHTML;
+		var post = document.lastModified;
+		myFoot.innerHTML = pre + "  " + post;
+				
+		myFoot = document.getElementById('location');
+		var pre = myFoot.innerHTML;
+		var post = window.location;
+		myFoot.innerHTML = pre + "  " + post;
+				
+	}
+	
+	call();
+
+	</script>
+
+
+</body>
+
+</html>
